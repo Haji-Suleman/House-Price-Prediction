@@ -26,12 +26,12 @@ X = X[0]
 
 
 y = weight * X + bias
-# plt.scatter(X, y)
-# plt.xlabel("Input")
-# plt.title("Making a Ml Model using pytorch")
-# plt.ylabel("Output")
-# plt.show()
-###########################
+plt.scatter(X, y)
+plt.xlabel("Input")
+plt.title("Making a Ml Model using pytorch")
+plt.ylabel("Output")
+plt.show()
+##########################
 
 
 ### Create a train/test split ###
@@ -42,7 +42,7 @@ len(X_train), len(Y_train), len(X_test), len(Y_test)
 #################################
 
 
-### PLotting the prediction and real Data ###
+### PLotting the prediction and real Data #
 def plot_prediction(prediction=None):
     """PLots training data,test data and compaer predictions."""
     plt.figure(figsize=(10, 7))
